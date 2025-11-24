@@ -16,6 +16,13 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@gridweaver/source"]
+    "customConditions": ["@gridweaver/source"],
+    "baseUrl": ".",
+    "paths": {
+      "@gridweaver/core": ["libs/core/src/index.ts"],
+      "@gridweaver/db-mongodb": ["libs/db-mongodb/src/index.ts"],
+      "@gridweaver/api-hono": ["libs/api-hono/src/index.ts"],
+      "@gridweaver/react": ["libs/react/src/index.ts"]
+    }
   }
 }
