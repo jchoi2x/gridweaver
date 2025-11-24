@@ -18,12 +18,6 @@
       "options": {
         "typecheck": {
           "targetName": "typecheck"
-        },
-        "build": {
-          "targetName": "build",
-          "configName": "tsconfig.lib.json",
-          "buildDepsName": "build-deps",
-          "watchDepsName": "watch-deps"
         }
       }
     },
@@ -46,17 +40,10 @@
         "buildDepsTargetName": "build-deps",
         "watchDepsTargetName": "watch-deps"
       }
-    },
-    {
-      "plugin": "@nx/vitest",
-      "options": {
-        "testTargetName": "test",
-        "ciTargetName": "test-ci"
-      }
     }
   ],
   "targetDefaults": {
-    "@nx/js:tsc": {
+    "build": {
       "cache": true,
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
