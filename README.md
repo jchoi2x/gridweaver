@@ -1,5 +1,7 @@
 # Gridweaver
 
+[![CI](https://github.com/jchoi2x/gridweaver/actions/workflows/ci.yml/badge.svg)](https://github.com/jchoi2x/gridweaver/actions/workflows/ci.yml)
+
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
 ✨ Your new, shiny [Nx workspace](https://nx.dev) is ready ✨.
