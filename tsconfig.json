@@ -2,5 +2,18 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./libs/core"
+    },
+    {
+      "path": "./libs/db-mongodb"
+    },
+    {
+      "path": "./libs/api-hono"
+    },
+    {
+      "path": "./libs/react"
+    }
+  ]
 }
