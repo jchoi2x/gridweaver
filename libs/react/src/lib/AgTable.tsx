@@ -5,7 +5,6 @@ import type {
   GridApi,
   GridReadyEvent,
   FirstDataRenderedEvent,
-  CellClickedEvent,
   ColumnState,
   ColDef,
   ColGroupDef,
@@ -328,7 +327,7 @@ export class AgTable extends Component<AgTableProps, AgTableState> {
     }
   };
 
-  private handleCellClicked = (_event: CellClickedEvent) => {
+  private handleCellClicked = () => {
     // Cell click handler - can be extended via gridProps.onCellClicked
   };
 
