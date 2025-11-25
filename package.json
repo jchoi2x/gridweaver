@@ -5,8 +5,11 @@
   "scripts": {},
   "private": true,
   "dependencies": {
-    "ag-grid-community": "^34.3.1",
-    "ag-grid-react": "^34.3.1",
+    "@ag-grid-community/client-side-row-model": "^32.3.9",
+    "@ag-grid-community/core": "^32.3.9",
+    "@ag-grid-community/react": "^32.3.9",
+    "@ag-grid-community/styles": "^32.3.9",
+    "@ag-grid-enterprise/server-side-row-model": "^32.3.9",
     "angular-expressions": "^1.5.1",
     "hono": "^4.10.6",
     "mongoose": "^8.20.1",

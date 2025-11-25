@@ -1,1 +1,1 @@
-export * from './lib/react';
+export { AgTable, type AgTableProps, type CellRendererAction } from './lib/AgTable';
