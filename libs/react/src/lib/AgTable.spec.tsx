@@ -12,6 +12,7 @@ describe('AgTable', () => {
   });
 
   it('should render loading state initially', () => {
+    // eslint-disable-next-line @typescript-eslint/no-empty-function
     mockFetch.mockImplementation(() => new Promise(() => {})); // Never resolves
     
     const { baseElement } = render(
