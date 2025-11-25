@@ -328,8 +328,8 @@ export class AgTable extends Component<AgTableProps, AgTableState> {
     }
   };
 
-  private handleCellClicked = (event: CellClickedEvent) => {
-    console.log('Cell clicked', event.node.data?.id, event.event);
+  private handleCellClicked = (_event: CellClickedEvent) => {
+    // Cell click handler - can be extended via gridProps.onCellClicked
   };
 
   /** Get the AG Grid API */
